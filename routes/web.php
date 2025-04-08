@@ -12,10 +12,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
 //login
 //Permiso
 //administrador@example.com
-//12345678
+//123456789
 Route::middleware(['auth'])->group(function () {
     Route::get('/admin', [UsuarioController::class, 'index'])->name('usuarios.index');
     

@@ -39,6 +39,10 @@
    <div class="mt-3">
         <a href="{{ url('/devoluciones') }}" class="btn btn-secondary">Ir a Devoluciones</a>
     </div>
+    <br>
+   <div class="mt-3">
+        <a href="{{ url('/medicamentos') }}" class="btn btn-secondary">Regresar a medicamentos</a>
+    </div>
 
 </body>
 </html>

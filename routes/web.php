@@ -12,6 +12,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+//login
 //Permiso
 //administrador@example.com
 //12345678
